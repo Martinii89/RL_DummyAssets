@@ -1,5 +1,5 @@
 set CookedPCConsolePath="C:\Program Files (x86)\Steam\steamapps\common\rocketleague\TAGame\CookedPCConsole"
-set DummyFolder=E:\RocketLeagueMapmaking\RL_DummyAssets_Mine
+set DummyFolder=[Your RL_DummyAssets Folder Path]
 
 AssetExtraction.exe --nopreload --dummy -f %CookedPCConsolePath% --dummyFolder %DummyFolder%\GoalExplosions -g explosion*.upk
 AssetExtraction.exe --nopreload --dummy -f %CookedPCConsolePath% --dummyFolder %DummyFolder%\PaintFinishes -g paintfinish*.upk
